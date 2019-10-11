@@ -18,7 +18,25 @@ namespace Week1Ora2
 
             //ForExample();
 
+           // WriteEvenNumbers();
+
             Console.ReadLine();
+        }
+
+        private static void WriteEvenNumbers()
+        {
+            for (int i = 0; i < 100; i += 2)
+            {
+                Console.WriteLine(i);
+            }
+
+            for (int i = 0; i < 100; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
         }
 
         private static void ForExample()
